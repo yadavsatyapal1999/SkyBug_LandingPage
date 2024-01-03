@@ -1,0 +1,14 @@
+
+.form{
+    display: flex;
+}
+.message{
+    width: 60%;
+    padding-left: 5vw;
+}
+.message input,textarea,button{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 2vw;
+}
