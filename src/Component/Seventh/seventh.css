@@ -3,6 +3,7 @@
     padding: 10vw 4vw;
     background-color: rgb(31, 30, 30);
     color: grey;
+    
 }
 
 #seventhfirst {
@@ -12,7 +13,7 @@
 
 #seventhsecond {
     width: 60%;
-    padding: 0vw 4vw;
+    padding: 1vw 4vw;
 }
 
 #seventhfirst h2 {
@@ -30,19 +31,22 @@
     font-family: sans-serif;
     font-weight: lighter;
 }
+
 #seventhfirst p {
     font-size: 2vw;
     font-family: sans-serif;
     font-weight: lighter;
 }
-.input input{
+
+.input input {
     background: transparent;
     border: none;
     width: 60%;
     background-color: black;
     height: 3vw;
 }
-.input button{
+
+.input button {
     width: 30%;
     height: 3vw;
     background-color: green;
