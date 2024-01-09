@@ -8,25 +8,38 @@ import { useState } from "react";
 
 
 export default function Fifth() {
+    const array = [<FaAmazon className="icon" size={60} />, <FaGoogle className="icon" size={60}  />, <FaMicrosoft className="icon" size={60}  />, <FaFacebook className="icon"  size={60} />, <FaApple className="icon" size={60}  />, <FaGithub className="icon" size={60}  />, <FaTwitter className="icon" size={60}  />, <FaLinkedin className="icon" size={60}   />, <FaInstagram className="icon" size={60}  />]
 
-    const [state,Setstate] = useState()
-
+    console.log(array.length)
+    const [state, Setstate] = useState(0)
     return <div id="fifth">
         <div className="head">
             <p id="client" >OUR CLIENT</p>
             <h2>Glint has be honored to be partner up with these clients</h2>
         </div>
         <div className="images">
-            <FaAmazon size={60} color="orange" />
-            <FaGoogle size={60} color="blue" />
-            <FaMicrosoft size={60} color="green" />
-            <FaFacebook size={60} color="blue" />
-            <FaApple size={60} color="black" />
-            <FaGithub size={60} color="black" />
-            <FaTwitter size={60} color="blue" />
-            <FaLinkedin size={60} color="blue" />
-            <FaInstagram size={60} color="red" />
 
+            {array.map((obj, index) => {
+                return <>{index >= state && index <= state + 4 ? <span key={index} >{obj}</span> : <></>}</>
+            })}
+            <div >
+                <button className="btn" onClick={() => {
+                    Setstate(0)
+                }} >.</button>
+                <button className="btn" onClick={() => {
+                    Setstate(1)
+                }}>.</button>
+                <button className="btn" onClick={() => {
+                    Setstate(2)
+                }} >.</button>
+                <button className="btn" onClick={() => {
+                    Setstate(3)
+                }} >.</button>
+                <button className="btn" onClick={() => {
+                    Setstate(4)
+                }} >.</button>
+
+            </div>
         </div>
         <div className="textfifth" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor

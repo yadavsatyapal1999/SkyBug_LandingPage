@@ -19,3 +19,40 @@
     padding: 4vw;
     text-align: justify;
 }
+
+.btn{
+    font-size: 8vw;
+    margin: 1vw;
+    border: none;
+    color: grey;
+    background-color: inherit;
+    border-radius: 50%;
+    font-family: emoji;
+    height: auto;
+
+}
+.btn:hover{
+    color: black;
+}
+
+span:hover{
+    color: black;
+}
+.images{
+    padding: 2vw 0vw;
+}
+.icon{
+    color: grey;
+}
+.icon:hover{
+    animation: Blac  2s ease-in-out ;
+}
+
+@keyframes Blac{
+    0%{
+        color: grey;
+    }
+    100%{
+        color: black;
+    }
+}

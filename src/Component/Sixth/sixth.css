@@ -6,7 +6,7 @@
     width: 60%;
     padding-left: 5vw;
 }
-.message input,textarea,button{
+.message input,textarea{
     width: 60%;
     border: none;
     border-bottom: 1px solid grey;
@@ -19,7 +19,12 @@
     color: white;
     padding: 2vw;
 }
-button{
+#button{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 2vw;
+    background: transparent;
     color: white;
     background-color: rgb(35, 185, 35);
     font-size: 2vw;

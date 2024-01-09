@@ -22,7 +22,7 @@ export default function Sixth() {
                 <textarea name="Message" id="" cols="30" rows="10">
                     Message
                 </textarea>  <br />
-                <button> SUBMIT </button>
+                <button  id="button" > SUBMIT </button>
             </div>
             <div>
                 <p className="green" >CONTACT INFO</p>
