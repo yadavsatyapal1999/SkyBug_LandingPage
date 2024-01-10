@@ -1,14 +1,14 @@
 
-import React from 'react';
-import { FaBars } from 'react-icons/fa';
+
 
 
 export default function First() {
 
     return <div id="first">
+
         <div id='menu' >
             <div id='glint' >Glint</div>
-            <div id='menusticky' >   Menu   <span> <FaBars size={20} />  </span>  </div>
+
         </div>
         <div>
 

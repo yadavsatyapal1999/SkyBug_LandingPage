@@ -13,13 +13,13 @@ export default function Nav() {
                 <FaLaptopCode size={40} />
             </span>
             <span>
-                <FaMobileAlt size={35} />
+                <FaMobileAlt size={40} />
             </span>
             <span>
-                <FaMobileAlt size={30} />
+                <FaMobileAlt size={40} />
             </span>
             <span>
-                <FaTimes size={35} />
+                <FaTimes size={40} />
             </span>
         </div>
     </div>

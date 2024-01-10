@@ -45,7 +45,8 @@ span:hover{
     color: grey;
 }
 .icon:hover{
-    animation: Blac  2s ease-in-out ;
+    animation: Blac  1.2s ease-in-out ;
+    color: black;
 }
 
 @keyframes Blac{
