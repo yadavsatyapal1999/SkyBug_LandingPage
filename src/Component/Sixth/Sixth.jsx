@@ -3,9 +3,9 @@
 
 import "./sixth.css";
 
-export default function Sixth() {
+export default function Sixth({targetRefs}) {
 
-    return <div id="sixth">
+    return <div id="sixth"  ref={targetRefs} >
 
         <div id="center" >
             <p className="green">CONTACT US</p>

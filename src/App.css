@@ -160,7 +160,7 @@ span {
   background-color: black;
   color: rgb(50, 231, 50);
   text-align: -webkit-right;
-  display: flex;
+  
   align-content: center;
   width: max-content;
   padding: 4px;
@@ -168,4 +168,8 @@ span {
 }
 #menusticky span{
   color: white;
+}
+.li{
+  display: block;
+  text-align: justify;
 }

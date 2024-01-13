@@ -1,10 +1,15 @@
+import React  from "react"
+import { useRef } from "react"
+import  { useEffect } from 'react';
 
 
-
-
+// First Page contain company name  and another two button
 export default function First() {
 
-    return <div id="first">
+
+
+
+    return <div id="first"  >
 
         <div id='menu' >
             <div id='glint' >Glint</div>

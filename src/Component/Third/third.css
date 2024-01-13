@@ -1,4 +1,9 @@
-#green {
+
+/* It conatian all styles for third page only */
+
+#green { 
+
+    /*First text of third page which will appear in green color */
     color: rgb(14, 196, 14);
     font-size: 1.4vw;
     text-align: center;
@@ -13,6 +18,7 @@
 }
 
 .text {
+    /* Styling  text content of project*/
     width: 26vw;
     font-family: math;
     font-size: 1.4vw;
@@ -21,6 +27,7 @@
 }
 
 .logo {
+    /* it align logo and and name of field  */
     display: flex;
     place-items: center;
 }
@@ -37,6 +44,7 @@
 }
 
 .logo span {
+    /* Styling to text of field name */
     font-size: 2.4vw;
     font-family: ui-monospace;
     font-weight: bolder;

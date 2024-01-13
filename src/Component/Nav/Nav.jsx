@@ -4,6 +4,8 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';
 
 
+// Nav Bar
+
 export default function Nav() {
 
     return <div id="outerNav">

@@ -7,9 +7,9 @@ import { FaBox } from 'react-icons/fa';
 import { FaCode } from 'react-icons/fa';
 import "./third.css";
 
-export default function Third() {
+export default function Third({targetRefs}) {
 
-    return <div id="third">
+    return <div id="third"  ref={targetRefs} >{    /* Outer Div of third Page */}
         <p id="green"  >
             WHAT WE DO
         </p>
