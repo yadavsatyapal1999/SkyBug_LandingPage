@@ -1,43 +1,64 @@
+/* Styles for the seventh section */
 #seventh {
     display: flex;
     padding: 10vw 4vw;
     background-color: rgb(31, 30, 30);
     color: grey;
-    
 }
 
+#seventh{
+    animation: Scroll 2s ease;
+}
+@keyframes Scroll{
+    0%{
+        top: 20vw;
+        color: red;
+    }
+    100%{
+        bottom: 20vw;
+        color:green
+    }
+}
+
+/* Styles for the first column in the seventh section */
 #seventhfirst {
     width: 60%;
     padding: 0vw 4vw;
 }
 
+/* Styles for the second column in the seventh section */
 #seventhsecond {
     width: 60%;
     padding: 1vw 4vw;
 }
 
+/* Styles for the heading in the first column of the seventh section */
 #seventhfirst h2 {
     color: rgb(47, 192, 47);
     font-size: 4vw;
 }
 
+/* Styles for the heading in the second column of the seventh section */
 #seventhsecond h3 {
     color: rgb(219, 227, 233);
     font-size: 3vw;
 }
 
+/* Styles for paragraphs in the second column of the seventh section */
 #seventhsecond p {
     font-size: 2vw;
     font-family: sans-serif;
     font-weight: lighter;
 }
 
+/* Styles for paragraphs in the first column of the seventh section */
 #seventhfirst p {
     font-size: 2vw;
     font-family: sans-serif;
     font-weight: lighter;
 }
 
+/* Styles for the input container */
 .input input {
     background: transparent;
     border: none;
@@ -46,6 +67,7 @@
     height: 3vw;
 }
 
+/* Styles for the button within the input container */
 .input button {
     width: 30%;
     height: 3vw;

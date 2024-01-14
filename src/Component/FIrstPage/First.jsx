@@ -1,33 +1,28 @@
-import React  from "react"
-import { useRef } from "react"
-import  { useEffect } from 'react';
+import React from "react";
 
-
-// First Page contain company name  and another two button
-export default function First() {
-
-
-
-
-    return <div id="first"  >
-
-        <div id='menu' >
-            <div id='glint' >Glint</div>
-
-        </div>
+// First Page contains company name and another two buttons
+export default function First({ targetRefs }) {
+  return (
+    // The whole section with an id and a reference to targetRefs
+    <div id="first" ref={targetRefs}>
+      {/* The menu section */}
+      <div id="menu">
+        {/* The company name */}
+        <div id="glint">Glint</div>
+      </div>
+      <div>
+        {/* Heading and introduction */}
+        <h4>
+          <p>Welcome to Glint</p>
+          We are a creative group of people who design influential brands and
+          digital experiences.
+        </h4>
+        {/* Buttons section */}
         <div>
-
-            <h4>
-                <p>Welcome to Glint</p>
-                We are creative group of people
-                who design influential brands
-                and digital experiences.
-            </h4>
-            <div>
-                <button>Start a Project</button>
-                <button>About Us</button>
-            </div>
+          <button>Start a Project</button>
+          <button>About Us</button>
         </div>
-
+      </div>
     </div>
+  );
 }

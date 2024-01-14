@@ -1,37 +1,49 @@
-
-#fourth{
+/* Styles for the fourth section */
+#fourth {
     text-align: center;
     background: rgba(0, 0, 0, 0.137);
     padding: 2vw 0vw;
 }
-.fourthflex{
+
+/* Flex container for the fourth section */
+.fourthflex {
     display: flex;
 }
-img{
+
+/* Styling for images in the fourth section */
+img {
     width: 48vw;
     height: 48vw;
     margin: 0px;
 }
-img:hover{
-   animation: Hover 2s ease-in-out ;
-   width: 50vw;
-   height: 50vw;
+
+/* Hover effect for images in the fourth section */
+img:hover {
+    animation: Hover 2s ease-in-out;
+    width: 50vw;
+    height: 50vw;
 }
-div{
+
+/* Styling for div elements */
+div {
     margin: 0px;
 }
 
-@keyframes Hover{
-    0%{
+/* Keyframes for the hover effect */
+@keyframes Hover {
+    0% {
         width: 47vw;
         height: 47vw;
     }
-    100%{
+
+    100% {
         width: 50vw;
         height: 50vw;
     }
 }
-#green{
+
+/* Styling for the green text */
+#green {
     color: rgb(48, 216, 48);
     color: rgb(14, 196, 14);
     font-size: 1.4vw;

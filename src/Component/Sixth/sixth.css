@@ -1,25 +1,37 @@
-
-.form{
+/* Styles for the form container */
+.form {
     display: flex;
 }
-.message{
+
+/* Styles for the message section within the form */
+.message {
     width: 60%;
     padding-left: 5vw;
 }
-.message input,textarea{
+
+/* Styles for input and textarea within the message section */
+.message input,
+.message textarea {
     width: 60%;
     border: none;
     border-bottom: 1px solid grey;
     margin-bottom: 2vw;
     background: transparent;
 }
-#sixth{
-    background-image: url('https://wallpapers.com/images/hd/black-color-background-kvv6asd39zluqt0o.jpg');
+
+/* Styles for the sixth section, including background image, text color, and padding */
+#sixth {
+    background-image: url('https://wallpapers.com/images/high/black-color-background-kvv6asd39zluqt0o.webp');
     background-repeat: no-repeat;
     color: white;
     padding: 2vw;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-#button{
+
+/* Styles for the submit button */
+#button {
     width: 60%;
     border: none;
     border-bottom: 1px solid grey;
@@ -31,10 +43,14 @@
     font-family: emoji;
     height: 3vw;
 }
-#center{
+
+/* Styles for center-aligned text */
+#center {
     text-align: center;
 }
-.green{
+
+/* Styles for text with green color */
+.green {
     color: rgb(19, 165, 19);
     font-size: 1.3vw;
     font-weight: bolder;

@@ -1,9 +1,7 @@
+/* Styles for the third page */
 
-/* It conatian all styles for third page only */
-
-#green { 
-
-    /*First text of third page which will appear in green color */
+/* First text of the third page which will appear in green color */
+#green {
     color: rgb(14, 196, 14);
     font-size: 1.4vw;
     text-align: center;
@@ -11,14 +9,15 @@
     margin-bottom: 0vw;
 }
 
+/* Container for the content, using flex to allow wrapping */
 #content {
     display: flex;
     flex-wrap: wrap;
     padding: 4vw;
 }
 
+/* Styling for text content of the project */
 .text {
-    /* Styling  text content of project*/
     width: 26vw;
     font-family: math;
     font-size: 1.4vw;
@@ -26,12 +25,13 @@
     color: rgb(114, 110, 110);
 }
 
+/* Styles for aligning logo and the name of the field */
 .logo {
-    /* it align logo and and name of field  */
     display: flex;
     place-items: center;
 }
 
+/* Secondary green text with a border at the bottom */
 #green2 {
     width: 60vw;
     font-size: 3vw;
@@ -43,8 +43,8 @@
     padding-bottom: 2vw;
 }
 
+/* Styling for the text of the field name within the logo */
 .logo span {
-    /* Styling to text of field name */
     font-size: 2.4vw;
     font-family: ui-monospace;
     font-weight: bolder;

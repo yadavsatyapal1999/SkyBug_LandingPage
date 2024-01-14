@@ -1,18 +1,25 @@
-#fifth{
+/* Styles for the fifth section */
+#fifth {
     text-align: center;
 }
-#client{ 
+
+/* Styles for the 'OUR CLIENT' text */
+#client {
     font-family: emoji;
     font-size: 1.8vw;
     color: rgb(26, 223, 26);
 }
-#client+h2{
+
+/* Styles for the heading immediately after 'OUR CLIENT' */
+#client+h2 {
     font-size: 3vw;
     width: 60%;
     margin: auto;
     font-family: emoji;
 }
-.textfifth{
+
+/* Styles for the main text in the fifth section */
+.textfifth {
     font-size: 2vw;
     font-family: fangsong;
     color: grey;
@@ -20,7 +27,8 @@
     text-align: justify;
 }
 
-.btn{
+/* Styles for the buttons in the fifth section */
+.btn {
     font-size: 8vw;
     margin: 1vw;
     border: none;
@@ -29,31 +37,41 @@
     border-radius: 50%;
     font-family: emoji;
     height: auto;
-
 }
-.btn:hover{
+
+/* Hover styles for the buttons in the fifth section */
+.btn:hover {
     color: black;
 }
 
-span:hover{
+/* Hover styles for spans */
+span:hover {
     color: black;
 }
-.images{
+
+/* Styles for the images container in the fifth section */
+.images {
     padding: 2vw 0vw;
 }
-.icon{
+
+/* Styles for the icons in the fifth section */
+.icon {
     color: grey;
 }
-.icon:hover{
-    animation: Blac  1.2s ease-in-out ;
+
+/* Hover animation for the icons */
+.icon:hover {
+    animation: Blac 1.2s ease-in-out;
     color: black;
 }
 
-@keyframes Blac{
-    0%{
+/* Keyframe animation to change icon color from grey to black */
+@keyframes Blac {
+    0% {
         color: grey;
     }
-    100%{
+
+    100% {
         color: black;
     }
 }
