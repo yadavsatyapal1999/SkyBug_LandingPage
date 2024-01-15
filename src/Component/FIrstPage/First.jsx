@@ -4,7 +4,7 @@ import React from "react";
 export default function First({ targetRefs }) {
   return (
     // The whole section with an id and a reference to targetRefs
-    <div id="first" ref={targetRefs}>
+    <div id="first" ref={targetRefs} >
       {/* The menu section */}
       <div id="menu">
         {/* The company name */}

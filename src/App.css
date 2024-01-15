@@ -14,6 +14,10 @@
   }
 }
 
+.App {
+  height: 510vw;
+}
+
 /* Styling for the outer navigation bar */
 #outerNav {
   display: flex;
@@ -54,7 +58,19 @@ span {
   height: 50vw;
   color: aliceblue;
   position: relative;
-  top: -2.34vw;
+  padding: 5vw 0vw;
+
+}
+
+.show {
+  position: relative;
+  top: -28.8vw;
+  height: max-content;
+}
+
+.noshow {
+  position: relative;
+
 }
 
 /* Styling for the Glint logo within the first section */
@@ -121,7 +137,7 @@ span {
   top: -1.1vw;
   text-align: -webkit-center;
   font-family: fangsong;
-  padding: 4vw 0vw;
+  padding: 5vw 0vw;
   font-size: 2vw;
 }
 
@@ -172,9 +188,10 @@ span {
   font-family: emoji;
 }
 
+
 /* Styling for the sticky menu */
 #menusticky {
-  position: sticky;
+  position: fixed;
   z-index: 1000;
   top: 7vw;
   background-color: black;
@@ -184,6 +201,9 @@ span {
   width: max-content;
   padding: 4px;
   left: 89vw;
+  text-align: justify;
+  border: none;
+
 }
 
 /* Styling for spans within the sticky menu */
@@ -192,7 +212,20 @@ span {
 }
 
 /* Styling for list items */
-.li {
+li {
   display: block;
   text-align: justify;
+  list-style: none;
+  padding: 1vw;
+}
+
+li:hover {
+  border-bottom: 1px solid white;
+  font-style: italic;
+}
+
+#menusticky.absolute {
+  position: sticky;
+  top: 7vw;
+  left: 89vw;
 }

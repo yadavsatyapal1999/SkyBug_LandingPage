@@ -2,10 +2,10 @@
 import "./seventh.css";
 
 // Defining a functional component named "Sventh"
-export default function Sventh({targetRefs}) {
+export default function Sventh({ targetRefs }) {
   // Returning JSX for the component
   return (
-    <div id="seventh"  ref={targetRefs} >
+    <div id="seventh" ref={targetRefs}>
       {/* First section */}
       <div id="seventhfirst">
         <h2>Glint.</h2>

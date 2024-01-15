@@ -9,6 +9,10 @@
     margin-bottom: 0vw;
 }
 
+#third {
+    padding: 5vw 0vw;
+}
+
 /* Container for the content, using flex to allow wrapping */
 #content {
     display: flex;

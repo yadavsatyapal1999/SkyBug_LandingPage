@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useRef } from "react";
+import React, { useRef,useState } from "react";
 import Nav from "./Component/Nav/Nav";
 import First from "./Component/FIrstPage/First";
 import Second from "./Component/Second/Second";
@@ -13,6 +13,8 @@ import Menu from "./Component/Menu";
 function App() {
   // Array of refs to store references to each section
   const targetRefs = [useRef(), useRef(), useRef(), useRef(),useRef(), useRef(), useRef()];
+// State to manage the visibility of the menu
+const [show, setShow] = useState(false);
 
   // Function to scroll to a specific section based on index
   const scrollToRef = (index) => {
@@ -31,16 +33,17 @@ function App() {
       <Nav />
       
       {/* Menu component with scroll-to functionality */}
-      <Menu scrollToRef={scrollToRef} />
-
+      <Menu scrollToRef={scrollToRef}  show={show} setShow={setShow} />
+<div  className={show ? "show" : "noshow"} >
       {/* Individual section components */}
-      <First targetRefs={targetRefs[0]} />
+      <First targetRefs={targetRefs[0]}   />
       <Second targetRefs={targetRefs[1]} />
       <Third targetRefs={targetRefs[2]} />
       <Fourth targetRefs={targetRefs[3]} />
       <Fifth targetRefs={targetRefs[4]} />
       <Sixth targetRefs={targetRefs[5]} />
       <Sventh targetRefs={targetRefs[6]} />
+      </div>
     </div>
   );
 }
